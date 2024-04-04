@@ -10,10 +10,10 @@
 #include "../../constants.h"
 
 enum ButtonIndex {
-    settings_button,
     info_button,
     candy_button,
-    pill_button
+    pill_button,
+    settings_button
 };
 
 static void main_button_pressed_callback(void *ctx, uint32_t index) {
